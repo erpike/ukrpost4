@@ -1,1 +1,9 @@
+# [START gae_python37_cloudsql_config]
 runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: postgres
+  CLOUD_SQL_PASSWORD: qwertypark
+  CLOUD_SQL_DATABASE_NAME: addr_db
+  CLOUD_SQL_CONNECTION_NAME: ukrpost3:europe-west1-b:addresses
+# [END gae_python37_cloudsql_config]
